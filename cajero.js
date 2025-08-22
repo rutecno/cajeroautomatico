@@ -1,17 +1,15 @@
 
 // -------------------------------
-// Cajero Bancario en Consola
-// Proyecto de Clase  
-// Rafael Uraneta
-// Santiago Velez
+// Cajero Bancario en Consola    |
+// Proyecto de Clase             |
+// Rafael Uraneta                |
+// Santiago Velez                |
+// Kevin Gomez                   |
 // --------------------------------
 
-// "Base de datos" en memoria (sin usuarios precargados)
 let usuarios = [];
 
-// -------------------------------
 // Funciones principales del sistema
-// -------------------------------
 
 // Registrar un nuevo usuario
 function registrarUsuario() {
@@ -154,7 +152,7 @@ function iniciarPrograma() {
     let opcion;
     do {
         opcion = prompt(
-`===== BIENVENIDO AL CAJERO =====
+`----- BIENVENIDO AL CAJERO -----
 1. Registrar usuario
 2. Iniciar sesión
 3. Salir`
@@ -171,3 +169,4 @@ function iniciarPrograma() {
 
 // Arrancar el programa
 iniciarPrograma();
+
